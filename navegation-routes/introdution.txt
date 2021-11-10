@@ -1,0 +1,8 @@
+// Routes - Navegacion
+// Stack: pila de pantallas, apilamos las rutas y podemos navegar a travez de nuestra app y esto guarda un historial para que podamos retroceder hasta el primer block.
+// Tabs: tabs que aparece nen la parte inferior de la aplicacion. Las rutas no se apilan, el usuario puede estar en una ruta de a la vez y cuando el usuario selecciona el tab podemos mostrarles enconces otras pantallas segun el tab seleccionado.
+// Drawer: funciona de manera parecida a Tabs pero se muestra generalmente de forma lateral y este permite mostrarce o esconderce por medio de un toggler y de igual manera el usuarrio solo puede estar en una sola ruta a la vez.
+// Switch: este permite navegar entre distintas rutas pero sin maneter el estado de la navegacion o historial a diferencia de stack. generalmente se utiliza en el inicio de session, ya que una vez el usuario inicia session y luego se le muestra al inicio de nuestra app pero ya no puede regresar nuevamente, unicamente cerrando la session.
+
+// Instalacion de dependenciar necesarias para utilizar react-navigation
+// expo install react-navigation react-native-gesture-handler react-native-reanimated react-native-screens
